@@ -13,6 +13,7 @@ import App from "./App";
 var moment = require("moment");
 
 class WeatherData extends React.Component {
+
   //const DisplayData = ({ reading, index, completeData }) => {
   render() {
     let _date = new Date();

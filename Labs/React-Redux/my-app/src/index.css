@@ -5,23 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black !important;
-  background-image: url('./img/skyback.jpg');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.card {
-  display: inline-block !important;
-  width: 75%;
-  color: gray;
-  background-color: black;
-}
-
-h1 {
-  text-decoration: underline;
-  color: darkblue;
 }

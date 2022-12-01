@@ -16,7 +16,7 @@ class WeatherContainer extends React.Component {
     if (this.state.completeData.length > 0 || this.state.hasError === "false") {
       display = this.displayData();
     } else {
-      display = <h5 style={{ marginBottom: '200px' }} className="my-3" > Enter City in Search Bar</h5 >;
+      display = <h5 className="my-3">Enter City in Search Bar</h5>;
     }
 
     return (
